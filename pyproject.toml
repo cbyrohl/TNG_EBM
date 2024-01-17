@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tng-ebm"
+version = "0.1.0"
+description = ""
+authors = ["Chris Byrohl <9221545+cbyrohl@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "tng_ebm", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scida = {git = "https://github.com/cbyrohl/scida"}
+interpret = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
